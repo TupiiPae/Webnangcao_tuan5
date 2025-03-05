@@ -17,7 +17,4 @@ router.post("/", createProduct); // POST /api/products - Tạo sản phẩm mớ
 router.put("/:id", updateProduct); // PUT /api/products/:id - Cập nhật sản phẩm
 router.delete("/:id", deleteProduct); // DELETE /api/products/:id - Xóa sản phẩm
 
-// Route render EJS (nếu cần, nhưng hiện tại đã xử lý trong server.js)
-// router.get("/view/:id", getProductDetail); // Có thể giữ nếu cần API render EJS riêng
-
 module.exports = router;
